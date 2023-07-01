@@ -1,5 +1,5 @@
-#ifndef SORTING_H
-#define SORTING_H
+#ifndef SORT_H
+#define SORT_H
 
 /**
  * struct listint_s - Doubly linked list node
@@ -22,4 +22,4 @@ void print_list(const listint_t *list);
 /* Sorting Algorithms */
 void bubble_sort(int *array, size_t size);
 
-#endif // SORTING_H
+#endif // SORT_H
